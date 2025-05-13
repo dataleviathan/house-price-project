@@ -6,20 +6,21 @@ This project analyzes the 2021 Chicago housing data to build predictive and clas
 
 **Objectives**
 
-Predict housing prices using linear and multiple regression models.
+• Predict housing prices using linear and multiple regression models.
 
-Classify houses as "affordable" or "expensive" using LPM, logistic regression, and random forest.
+• Classify houses as "affordable" or "expensive" using LPM, logistic regression, and random forest.
 
-Compare model performance across different areas in Chicago.
+• Compare model performance across different areas in Chicago.
 
-Identify influential features like square footage, number of bathrooms, and building age.
+• Identify influential features like square footage, number of bathrooms, and building age.
 
-Dataset**
-**
+**Dataset**
+
 The dataset includes 12 variables:
 
 ZIP, HOUSEID, HPRICE, LOG_PRICE, SQFT, LOG_SQFT, BEDROOM,
 BATHROOM, GARAGE, AGEBLD, FIREPLACE, SOLD_30DAY
+
 Houses were labeled as expensive (1) or affordable (0) using the median price of $324,000.
 
 **Methods**
@@ -46,8 +47,8 @@ Model performance varied by area; results tailored per region.
 
 **Conclusion**
 
-Best predictor of price: Multiple Regression using SQFT, AGEBLD, BEDROOM, BATHROOM, GARAGE, FIREPLACE.
+• Best predictor of price: Multiple Regression using SQFT, AGEBLD, BEDROOM, BATHROOM, GARAGE, FIREPLACE.
 
-Best classifier of price level: Random Forest.
+• Best classifier of price level: Random Forest.
 
-Additional features (e.g., location quality, crime rate) could further improve predictions.
+• Additional features (e.g., location quality, crime rate) could further improve predictions.
