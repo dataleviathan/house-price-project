@@ -1,5 +1,5 @@
-**Chicago House Price Prediction and Classification
-**
+**Chicago House Price Prediction and Classification**
+
 **Overview**
 
 This project analyzes the 2021 Chicago housing data to build predictive and classification models for home prices across five geographic areas. The goal is to help potential buyers, sellers, and real estate professionals make informed decisions.
